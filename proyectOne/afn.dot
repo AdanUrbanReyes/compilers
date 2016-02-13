@@ -1,0 +1,12 @@
+digraph G{
+	main->parse->execute;
+	main[color="blue"];
+	main->init [label=a];
+	main->cleanup [label=b];
+	execute->make_string;
+	execute->printf;
+	init->make_string;
+	main->printf;
+	execute -> compare;
+	compare[shape="doublecircle" color="red"];
+}

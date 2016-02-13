@@ -1,0 +1,247 @@
+              SIMBOLO ESPECIAL	                             #	                       NUMERAL
+ INSTRUCCION DEL PREPROCESADOR	                       include	                       include
+           OPERADOR RELACIONAL	                             <	                         MENOR
+                 IDENTIFICADOR	                         stdio	                         stdio
+              SIMBOLO ESPECIAL	                             .	                         PUNTO
+                 IDENTIFICADOR	                             h	                             h
+           OPERADOR RELACIONAL	                             >	                         MAYOR
+              SIMBOLO ESPECIAL	                             #	                       NUMERAL
+ INSTRUCCION DEL PREPROCESADOR	                        define	                        define
+                 IDENTIFICADOR	                            PI	                            PI
+               NUMERO FLOTANTE	                        3.1416	                        3.1416
+                  TIPO DE DATO	                         float	                         float
+                 IDENTIFICADOR	                          suma	                          suma
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                  TIPO DE DATO	                         float	                         float
+              SIMBOLO ESPECIAL	                             ,	                          COMA
+                  TIPO DE DATO	                         float	                         float
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                  TIPO DE DATO	                         float	                         float
+                 IDENTIFICADOR	                         resta	                         resta
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                  TIPO DE DATO	                         float	                         float
+              SIMBOLO ESPECIAL	                             ,	                          COMA
+                  TIPO DE DATO	                         float	                         float
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                  TIPO DE DATO	                           int	                           int
+                          MAIN	                          main	                          main
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             {	                 LLAVE ABIERTA
+   CALIFICADOR DE TIPO DE DATO	                          long	                          long
+                  TIPO DE DATO	                           int	                           int
+                 IDENTIFICADOR	                             i	                             i
+              SIMBOLO ESPECIAL	                             ,	                          COMA
+                 IDENTIFICADOR	                            x4	                            x4
+                    ASIGNACION	                             =	                    ASIGNACION
+                 NUMERO ENTERO	                             0	                             0
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                  TIPO DE DATO	                         float	                         float
+                 IDENTIFICADOR	                resultado_suma	                resultado_suma
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                  TIPO DE DATO	                          char	                          char
+                 IDENTIFICADOR	                      caracter	                      caracter
+                    ASIGNACION	                             =	                    ASIGNACION
+              SIMBOLO ESPECIAL	                             '	                COMILLA-SIMPLE
+                 IDENTIFICADOR	                             a	                             a
+              SIMBOLO ESPECIAL	                             '	                COMILLA-SIMPLE
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                  TIPO DE DATO	                          char	                          char
+                 IDENTIFICADOR	                        cadena	                        cadena
+                    ASIGNACION	                             =	                    ASIGNACION
+              SIMBOLO ESPECIAL	                             "	                 COMILLA-DOBLE
+                 IDENTIFICADOR	                           abc	                           abc
+              SIMBOLO ESPECIAL	                             "	                 COMILLA-DOBLE
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+   CALIFICADOR DE TIPO DE DATO	                         short	                         short
+                  TIPO DE DATO	                           int	                           int
+                 NUMERO ENTERO	                             4	                             4
+                 IDENTIFICADOR	                            xx	                            xx
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+         ESTRUCTURA REPETITIVA	                           for	                           for
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                 IDENTIFICADOR	                             i	                             i
+                    ASIGNACION	                             =	                    ASIGNACION
+                 NUMERO ENTERO	                             0	                             0
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                 IDENTIFICADOR	                             i	                             i
+           OPERADOR RELACIONAL	                             <	                         MENOR
+                 NUMERO ENTERO	                            20	                            20
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                 IDENTIFICADOR	                             i	                             i
+                    INCREMENTO	                            ++	           INCREMENTO-POSITIVO
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             {	                 LLAVE ABIERTA
+                 IDENTIFICADOR	                            x4	                            x4
+                    ASIGNACION	                            +=	               SUMA-ASIGNACION
+                 IDENTIFICADOR	                             i	                             i
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                 IDENTIFICADOR	                        printf	                        printf
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+              SIMBOLO ESPECIAL	                             "	                 COMILLA-DOBLE
+                 IDENTIFICADOR	                         Valor	                         Valor
+                 IDENTIFICADOR	                            de	                            de
+           OPERADOR-ARITMETICO	                             %	                        MODULO
+                 IDENTIFICADOR	                            x4	                            x4
+              SIMBOLO ESPECIAL	                             "	                 COMILLA-DOBLE
+              SIMBOLO ESPECIAL	                             ,	                          COMA
+                 IDENTIFICADOR	                            x4	                            x4
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+              SIMBOLO ESPECIAL	                             }	                 LLAVE CERRADA
+         ESTRUCTURA REPETITIVA	                         while	                         while
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                 IDENTIFICADOR	                             i	                             i
+           OPERADOR RELACIONAL	                            ==	                         IGUAL
+               NUMERO FLOTANTE	                         67.56	                         67.56
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             {	                 LLAVE ABIERTA
+                 IDENTIFICADOR	                            rt	                            rt
+                    ASIGNACION	                             =	                    ASIGNACION
+                 IDENTIFICADOR	                           gf4	                           gf4
+                    INCREMENTO	                            ++	           INCREMENTO-POSITIVO
+           OPERADOR ARITMETICO	                             +	                          SUMA
+               NUMERO FLOTANTE	                           .45	                           .45
+              SIMBOLO ESPECIAL	                             }	                 LLAVE CERRADA
+                 IDENTIFICADOR	                resultado_suma	                resultado_suma
+                    ASIGNACION	                             =	                    ASIGNACION
+                 IDENTIFICADOR	                          suma	                          suma
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+           OPERADOR ARITMETICO	                             +	                          SUMA
+               NUMERO FLOTANTE	                           4.5	                           4.5
+              SIMBOLO ESPECIAL	                             ,	                          COMA
+           OPERADOR ARITMETICO	                             -	                         RESTA
+               NUMERO FLOTANTE	                           8.9	                           8.9
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                 IDENTIFICADOR	               resultado_resta	               resultado_resta
+                    ASIGNACION	                             =	                    ASIGNACION
+                 IDENTIFICADOR	                          suma	                          suma
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+           OPERADOR ARITMETICO	                             -	                         RESTA
+               NUMERO FLOTANTE	                            .4	                            .4
+              SIMBOLO ESPECIAL	                             ,	                          COMA
+           OPERADOR ARITMETICO	                             +	                          SUMA
+               NUMERO FLOTANTE	                           12.	                           12.
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                 IDENTIFICADOR	                      resultad	                      resultad
+                    ASIGNACION	                            +=	               SUMA-ASIGNACION
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+          ESTRUCTURA SELECTIVA	                            if	                            if
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                 IDENTIFICADOR	                resultado_suma	                resultado_suma
+           OPERADOR RELACIONAL	                             >	                         MAYOR
+                 IDENTIFICADOR	               resultado_resta	               resultado_resta
+               OPERADOR LOGICO	                            &&	                             Y
+               OPERADOR LOGICO	                             !	                      NEGACION
+                 IDENTIFICADOR	                            rt	                            rt
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+                 IDENTIFICADOR	                        printf	                        printf
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+              SIMBOLO ESPECIAL	                             "	                 COMILLA-DOBLE
+                 IDENTIFICADOR	                            La	                            La
+                 IDENTIFICADOR	                          suma	                          suma
+                 IDENTIFICADOR	                            es	                            es
+                 IDENTIFICADOR	                         mayor	                         mayor
+              SIMBOLO ESPECIAL	                             "	                 COMILLA-DOBLE
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+          ESTRUCTURA SELECTIVA	                          else	                          else
+                 IDENTIFICADOR	                        printf	                        printf
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+              SIMBOLO ESPECIAL	                             "	                 COMILLA-DOBLE
+                 IDENTIFICADOR	                            La	                            La
+                 IDENTIFICADOR	                         resta	                         resta
+                 IDENTIFICADOR	                            es	                            es
+                 IDENTIFICADOR	                         mayor	                         mayor
+              SIMBOLO ESPECIAL	                             "	                 COMILLA-DOBLE
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                        RETURN	                        return	                        return
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                 NUMERO ENTERO	                             1	                             1
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+              SIMBOLO ESPECIAL	                             }	                 LLAVE CERRADA
+                  TIPO DE DATO	                         float	                         float
+                 IDENTIFICADOR	                          suma	                          suma
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                  TIPO DE DATO	                         float	                         float
+                 IDENTIFICADOR	                             a	                             a
+              SIMBOLO ESPECIAL	                             ,	                          COMA
+                  TIPO DE DATO	                         float	                         float
+                 IDENTIFICADOR	                             b	                             b
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             {	                 LLAVE ABIERTA
+         ESTRUCTURA REPETITIVA	                            do	                            do
+              SIMBOLO ESPECIAL	                             {	                 LLAVE ABIERTA
+                 IDENTIFICADOR	                            fg	                            fg
+                    ASIGNACION	                             =	                    ASIGNACION
+                 IDENTIFICADOR	                            er	                            er
+                    INCREMENTO	                            --	           INCREMENTO-NEGATIVO
+           OPERADOR ARITMETICO	                             -	                         RESTA
+                 NUMERO ENTERO	                             4	                             4
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+              SIMBOLO ESPECIAL	                             }	                 LLAVE CERRADA
+         ESTRUCTURA REPETITIVA	                         while	                         while
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                 IDENTIFICADOR	                            fr	                            fr
+               OPERADOR LOGICO	                            !=	                     DIFERENTE
+                 NUMERO ENTERO	                            56	                            56
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                        RETURN	                        return	                        return
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                 IDENTIFICADOR	                             a	                             a
+           OPERADOR ARITMETICO	                             +	                          SUMA
+                 IDENTIFICADOR	                             b	                             b
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+              SIMBOLO ESPECIAL	                             }	                 LLAVE CERRADA
+                  TIPO DE DATO	                         float	                         float
+                 IDENTIFICADOR	                         resta	                         resta
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                  TIPO DE DATO	                         float	                         float
+                 IDENTIFICADOR	                             a	                             a
+              SIMBOLO ESPECIAL	                             ,	                          COMA
+                  TIPO DE DATO	                         float	                         float
+                 IDENTIFICADOR	                             b	                             b
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             {	                 LLAVE ABIERTA
+          ESTRUCTURA SELECTIVA	                        switch	                        switch
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                 IDENTIFICADOR	                            er	                            er
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             {	                 LLAVE ABIERTA
+          ESTRUCTURA SELECTIVA	                          case	                          case
+                 NUMERO ENTERO	                             4	                             4
+              SIMBOLO ESPECIAL	                             :	                    DOS PUNTOS
+                 IDENTIFICADOR	                            ed	                            ed
+                    ASIGNACION	                             =	                    ASIGNACION
+               NUMERO FLOTANTE	                           .25	                           .25
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+          ESTRUCTURA SELECTIVA	                          case	                          case
+                 NUMERO ENTERO	                             6	                             6
+              SIMBOLO ESPECIAL	                             :	                    DOS PUNTOS
+                 IDENTIFICADOR	                            ed	                            ed
+                    ASIGNACION	                             =	                    ASIGNACION
+               NUMERO FLOTANTE	                           25.	                           25.
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+              SIMBOLO ESPECIAL	                             }	                 LLAVE CERRADA
+                 IDENTIFICADOR	                             a	                             a
+                    INCREMENTO	                            ++	           INCREMENTO-POSITIVO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                 IDENTIFICADOR	                             b	                             b
+                    INCREMENTO	                            --	           INCREMENTO-NEGATIVO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+                        RETURN	                        return	                        return
+              SIMBOLO ESPECIAL	                             (	            PARENTESIS ABIERTO
+                 IDENTIFICADOR	                             a	                             a
+           OPERADOR ARITMETICO	                             -	                         RESTA
+                 IDENTIFICADOR	                             b	                             b
+              SIMBOLO ESPECIAL	                             )	            PARENTESIS CERRADO
+              SIMBOLO ESPECIAL	                             ;	                  PUNTO Y COMA
+              SIMBOLO ESPECIAL	                             }	                 LLAVE CERRADA
